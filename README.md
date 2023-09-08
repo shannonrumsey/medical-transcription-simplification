@@ -1,3 +1,5 @@
+Project done with Christopher Straw and Kristin Cheung at the University of California, Santa Barbara
+
 Using synonym replacement and text summarization, we explore the methodology of medical transcription simplification and what it means for text to be “simplified”. The synonym simplification process utilizes BioBERT embeddings to identify complex terms and replace them with simpler definitions. The resulting text is then summarized using a BERT2BERT model fine-tuned on a CNN/Dailymail dataset. From the results, we use a standard method for generating reading levels, the Felsch reading ease score test, and find an overall increase in readability after applying our models.
 
 
